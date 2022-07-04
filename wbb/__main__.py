@@ -115,7 +115,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="How To Use Commands❓", callback_data="bot_commands"
+                text="All Commands❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
                 text="Repository🛠",
@@ -124,7 +124,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="System Stats🤖",
+                text="Bot Stats🤖",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
@@ -168,6 +168,8 @@ keyboard = InlineKeyboardMarkup(
     ]
 )
 
+IMG = ["https://telegra.ph/file/679d1e06aaecd9eb6d51b.jpg"
+]
 
 @app.on_message(~filters.edited & filters.command("start"))
 async def start(_, message):
