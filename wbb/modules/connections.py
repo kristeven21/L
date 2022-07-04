@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Rose.mongo.connectiondb import add_connection, all_connections, if_active, delete_connection
+from wbb.mongo.connectiondb import add_connection, all_connections, if_active, delete_connection
 import logging
-from Rose import *
+from wbb import *
 from lang import get_command
-from Rose.utils.commands import *
-from Rose.utils.lang import *
+from wbb.utils.commands import *
+from wbb.utils.lang import *
 from button import *
 
 
