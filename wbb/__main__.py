@@ -118,13 +118,13 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="All Commands❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Report Issue🛠",
-                url="https://t.me/asinpeda",
+                text="Repository🛠",
+                url="https://github.com/lucyharun/bissmillah/",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Bot Stats💻",
+                text="Bot Stats🤖",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
@@ -155,7 +155,7 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/lucyharun/",
+                url="https://github.com/lucyharun/bissmillah/",
             ),
         ],
         [
