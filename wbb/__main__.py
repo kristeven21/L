@@ -128,7 +128,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Bot Owner🧜🏻‍♀️", url="https://t.me/asinpeda"
+                text="Bot Owner🧜🏻‍♀️", url="https://t.me/asinpeda",
             ),
         ],
         [
